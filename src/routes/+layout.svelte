@@ -1,9 +1,12 @@
-<script lang="ts">
+<script>
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
-
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
-{@render children()}
+<svelte:head>
+	<title>DreamSafe</title>
+	<link rel="icon" href="/dreamsafe-logo.svg" />
+</svelte:head>
+<main class="font-dm-serif-display">
+	{@render children()}
+</main>
