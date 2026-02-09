@@ -5,7 +5,7 @@
 
 <svelte:head>
 	<title>DreamSafe</title>
-	<link rel="icon" href="/dream-safe-tab.svg" />
+	<link rel="icon" href="/dreamsafe-logo.svg" />
 </svelte:head>
 <main class="font-dm-serif-display">
 	{@render children()}
