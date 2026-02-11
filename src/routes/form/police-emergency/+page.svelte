@@ -37,7 +37,7 @@
 
 		setTimeout(() => {
 			isLoading.set(false);
-			goto('/dream-safe-demo/form/policy-status');
+			goto('/form/policy-status');
 		}, 5000);
 	}
 
