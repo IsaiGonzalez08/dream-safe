@@ -48,7 +48,7 @@
 
 	$effect(() => {
 		isFormValid.set(
-			!!dateValue && timeValue !== 'Select Time' && locationValue !== 'Enter your Location'
+			!!dateValue && timeValue !== 'Select Time'
 		);
 	});
 

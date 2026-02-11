@@ -1,13 +1,13 @@
 // place files you want to import through the `$lib` alias in this folder.
 
 export const formRoutes = [
-	'/dream-safe-demo/form',
-	'/dream-safe-demo/form/loss-type',
-	'/dream-safe-demo/form/third-parties',
-	'/dream-safe-demo/form/police-emergency',
-	'/dream-safe-demo/form/policy-status',
-	'/dream-safe-demo/form/photo-document',
-	'/dream-safe-demo/form/claim-assessment'
+	'/form',
+	'/form/loss-type',
+	'/form/third-parties',
+	'/form/police-emergency',
+	'/form/policy-status',
+	'/form/photo-document',
+	'/form/claim-assessment'
 ];
 
 export const radioOptions = [
