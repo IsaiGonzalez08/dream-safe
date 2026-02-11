@@ -19,7 +19,7 @@
         {className}
         {active
 		? 'cursor-pointer bg-primary text-white'
-		: 'cursor-not-allowed bg-secondary text-soft-blue'}"
+		: 'cursor-not-allowed bg-secondary text-softBlue'}"
 	disabled={!active}
 	onclick={onClick}
 >
